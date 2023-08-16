@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 174, 148);
+}
+.container {
+    background-color:rgb(171, 146, 113);
+    width: 700px;
+    height: 700px;
+    position: relative;
+}
+
+.one, .two, .three, .four, .five, .six, .only {
+    position: absolute;
+    background-color: antiquewhite;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+.one {
+    top: 0;
+}
+
+.two {
+    bottom: 0;
+}
+
+.three {
+    right: 0;
+}
+
+.four {
+    right: 45%;
+}
+
+.five {
+    bottom: 0;
+    right: 35%;
+}
+
+.six {
+    bottom:0;
+    right: 0;
+}
+
+div {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.three {
+    height: 350px;
+}
+
+.three3 {
+    height: 300px;
+    width: 200px;
+}
+
+
+.two {
+    height: 350px;
+}
+
+.two2 {
+    height: 300px;
+    width: 200px;
+}
+
+.only {
+    top: 35%;
+    right: 40%;
+}
